@@ -16,7 +16,7 @@ int main()
     setlocale(LC_ALL,"turkish");
     harfler_sifirla();
     FILE *dosya;
-
+	// dosya açma
     if((dosya=fopen("dosya.txt","r"))==NULL){
 
         printf("dosya açýlmadý");
